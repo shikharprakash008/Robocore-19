@@ -78,7 +78,7 @@
                     android:layout_centerHorizontal="true"
                     android:layout_gravity="center"
                     android:layout_marginTop="16dp"
-                    android:src="@drawable/arghy"
+
                      />
 
                 <TextView
@@ -122,7 +122,6 @@
                         android:layout_centerHorizontal="true"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/rahul"
                          />
 
                     <TextView
@@ -163,7 +162,6 @@
                         android:layout_centerHorizontal="true"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/jeeva"
                         />
 
                     <TextView
@@ -203,7 +201,6 @@
                         android:layout_centerHorizontal="true"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/dhanush"
                         />
 
                     <TextView
@@ -243,7 +240,7 @@
                         android:layout_centerHorizontal="true"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/ankit"
+
                         />
 
                     <TextView
@@ -283,7 +280,7 @@
                         android:layout_centerHorizontal="true"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/keshav_b"
+
 
                         />
 
@@ -324,7 +321,7 @@
                         android:layout_centerHorizontal="true"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/pankaj"
+
                         />
 
                     <TextView
@@ -363,7 +360,7 @@
                         android:layout_centerHorizontal="true"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/abhinav"
+
                         />
 
                     <TextView
@@ -403,7 +400,6 @@
                         android:layout_centerHorizontal="true"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/anuj"
 
                         />
 
@@ -444,7 +440,6 @@
                         android:layout_centerHorizontal="true"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/amit"
                         />
 
                     <TextView
@@ -484,7 +479,6 @@
                         android:layout_centerHorizontal="true"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/natesh"
                         />
 
                     <TextView
@@ -524,7 +518,7 @@
                         android:layout_centerHorizontal="true"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/gs"
+
 
                         />
 
@@ -565,7 +559,6 @@
                         android:layout_centerHorizontal="true"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/kundan"
                         />
 
                     <TextView
@@ -605,7 +598,6 @@
                         android:layout_centerHorizontal="true"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/bhavani"
                         />
 
                     <TextView
@@ -644,7 +636,6 @@
                     android:layout_centerHorizontal="true"
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:src="@drawable/aquib"
                     />
 
                 <TextView
@@ -684,7 +675,7 @@
                         android:layout_centerHorizontal="true"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/rohan"
+
                         />
 
                     <TextView
@@ -724,7 +715,6 @@
                         android:layout_centerHorizontal="true"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/sweta"
                         />
 
                     <TextView
@@ -763,7 +753,7 @@
                         android:layout_centerHorizontal="true"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/krishnkant"
+
 
                         />
 
@@ -804,7 +794,7 @@
                         android:layout_centerHorizontal="true"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/hrijusha"
+
                         />
 
                     <TextView
@@ -844,7 +834,6 @@
                         android:layout_centerHorizontal="true"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/sonakshi"
 
                         />
 
@@ -885,7 +874,6 @@
                         android:layout_centerHorizontal="true"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/anurag"
                         />
 
                     <TextView
@@ -925,7 +913,6 @@
                         android:layout_centerHorizontal="true"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/anand"
 
                         />
 
@@ -966,7 +953,7 @@
                         android:layout_centerHorizontal="true"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/anushant"
+
                         />
 
                     <TextView
@@ -1005,7 +992,7 @@
                         android:layout_centerHorizontal="true"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/amaan"
+
                         />
 
                     <TextView
@@ -1044,7 +1031,6 @@
                         android:layout_centerHorizontal="true"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/aditi"
                         />
 
                     <TextView
@@ -1084,7 +1070,7 @@
                         android:layout_centerHorizontal="true"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/asra"
+
                         />
 
                     <TextView
@@ -1124,7 +1110,6 @@
                         android:layout_centerHorizontal="true"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/chetan"
                         />
 
                     <TextView
@@ -1164,7 +1149,6 @@
                         android:layout_centerHorizontal="true"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/astha"
                         />
 
                     <TextView
@@ -1203,7 +1187,7 @@
                         android:layout_centerHorizontal="true"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/nikita"
+
 
                         />
 
@@ -1243,7 +1227,7 @@
                         android:layout_centerHorizontal="true"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/raghav"
+
                         />
 
                     <TextView
@@ -1283,7 +1267,7 @@
                         android:layout_centerHorizontal="true"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/saksham"
+
 
                         />
 
@@ -1324,7 +1308,7 @@
                         android:layout_centerHorizontal="true"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/sandeep"
+
 
                         />
 
@@ -1366,7 +1350,7 @@
                         android:layout_centerHorizontal="true"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/xyz"
+
 
                         />
 
@@ -1408,7 +1392,6 @@
                         android:layout_centerHorizontal="true"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/manojana"
                         />
 
                     <TextView
@@ -1449,7 +1432,6 @@
                         android:layout_centerHorizontal="true"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/shivu"
                         />
 
                     <TextView
@@ -1490,7 +1472,6 @@
                         android:layout_centerHorizontal="true"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/kaisar"
 
                         />
 
@@ -1573,7 +1554,7 @@
                         android:layout_centerHorizontal="true"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/chetan_j"
+
 
 
                         />
@@ -1617,7 +1598,7 @@
                         android:layout_centerHorizontal="true"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/shagun"
+
 
                         />
 
@@ -1659,7 +1640,7 @@
                         android:layout_centerHorizontal="true"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/tanmay"
+
 
                         />
 
@@ -1701,7 +1682,7 @@
                         android:layout_centerHorizontal="true"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/shristi"
+
                         />
 
                     <TextView
@@ -1742,7 +1723,6 @@
                         android:layout_centerHorizontal="true"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/ansa"
                         />
 
                     <TextView
@@ -1783,7 +1763,6 @@
                         android:layout_centerHorizontal="true"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/rohit"
                         />
 
                     <TextView
@@ -1824,7 +1803,7 @@
                         android:layout_centerHorizontal="true"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/chaya"
+
                         />
 
                     <TextView
@@ -1865,7 +1844,6 @@
                         android:layout_centerHorizontal="true"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/rohan_r"
                         />
 
                     <TextView
@@ -1906,7 +1884,7 @@
                         android:layout_centerHorizontal="true"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/aman"
+
 
                         />
 
@@ -1948,7 +1926,7 @@
                         android:layout_centerHorizontal="true"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/sashvat"
+
                         />
 
                     <TextView
@@ -1989,7 +1967,7 @@
                         android:layout_centerHorizontal="true"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/mehraj"
+
                         />
 
                     <TextView
@@ -2030,7 +2008,7 @@
                         android:layout_centerHorizontal="true"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/anshuman"
+
                         />
 
                     <TextView
@@ -2071,7 +2049,7 @@
                         android:layout_centerHorizontal="true"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/bhakti"
+
                         />
 
                     <TextView
@@ -2112,7 +2090,7 @@
                         android:layout_centerHorizontal="true"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src ="@drawable/bitcoin"
+
                         />
 
                     <TextView
@@ -2153,7 +2131,6 @@
                         android:layout_centerHorizontal="true"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src ="@drawable/bitcoin"
                         />
 
                     <TextView
@@ -2195,7 +2172,6 @@
                         android:layout_centerHorizontal="true"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src ="@drawable/bitcoin"
                         />
 
                     <TextView
