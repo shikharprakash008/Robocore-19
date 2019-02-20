@@ -1,8 +1,14 @@
 package surfer.example.surfer.robobore;
 
+import android.animation.ValueAnimator;
+import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
+import android.media.Image;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v7.app.ActionBar;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -12,25 +18,24 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.animation.LinearInterpolator;
+import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
+
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -67,9 +72,7 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
+
 
         return super.onOptionsItemSelected(item);
     }
@@ -80,17 +83,34 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
+        if (id == R.id.corsit) {
+            Intent i=new Intent(MainActivity.this,Corsit.class);
+            startActivity(i);
             // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+        } else if (id == R.id.robocore) {
+            Intent i=new Intent(MainActivity.this,RoboCore.class);
+            startActivity(i);
 
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.events) {
+            Intent i=new Intent(MainActivity.this,Events.class);
+            startActivity(i);
 
-        } else if (id == R.id.nav_manage) {
+        } else if (id == R.id.team) {
+            Intent i=new Intent(MainActivity.this,Team.class);
+            startActivity(i);
 
-        } else if (id == R.id.nav_share) {
+        } else if (id == R.id.sponsor) {
+            Intent i=new Intent(MainActivity.this,Sponsor.class);
+            startActivity(i);
 
-        } else if (id == R.id.nav_send) {
+        } else if (id == R.id.contact_us) {
+            Intent i=new Intent(MainActivity.this,ContactUs.class);
+            startActivity(i);
+
+        }
+        else if (id == R.id.location){
+            Intent i=new Intent(MainActivity.this,Location.class);
+            startActivity(i);
 
         }
 

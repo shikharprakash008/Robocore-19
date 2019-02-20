@@ -1,24 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:showIn="navigation_view">
+    tools:showIn="navigation_view"
+     >
 
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/corsit"
             android:icon="@drawable/ic_menu_camera"
-            android:title="Corsit" />
+            android:title="Corsit"
+            android:textColor="@color/red"/>
         <item
             android:id="@+id/robocore"
             android:icon="@drawable/ic_menu_gallery"
             android:title="Robocore 2K19" />
         <item
             android:id="@+id/events"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Events" />
+            android:icon="@drawable/calendar"
+            android:title="Events"/>
+
+
+
+
         <item
             android:id="@+id/team"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/group"
             android:title="The Team"
 
             />
@@ -28,15 +34,15 @@
         <menu>
             <item
                 android:id="@+id/sponsor"
-                android:icon="@drawable/ic_menu_send"
+                android:icon="@drawable/sponsor"
                 android:title="Sponsor" />
             <item
                 android:id="@+id/contact_us"
-                android:icon="@drawable/ic_menu_share"
+                android:icon="@drawable/telephone"
                 android:title="Contact Us" />
             <item
                 android:id="@+id/location"
-                android:icon="@drawable/ic_menu_send"
+                android:icon="@drawable/placeholder"
                 android:title="Location" />
         </menu>
     </item>
