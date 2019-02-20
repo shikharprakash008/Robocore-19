@@ -14,7 +14,7 @@ public class Team extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_team);
-        m1=findViewById(R.id.image1);
+        m1= findViewById(R.id.image1);
         m2=findViewById(R.id.image2);
         m3=findViewById(R.id.image3);
         m4=findViewById(R.id.image4);
@@ -67,7 +67,7 @@ public class Team extends AppCompatActivity {
         m52=findViewById(R.id.image52);
         m53=findViewById(R.id.image53);
 
-        String url="https://firebasestorage.googleapis.com/v0/b/robocore-bf107.appspot.com/o/arghy.jpg?alt=media&token=1ca40532-3156-4d9e-81f4-68078bf287b5";
+  /*      String url="https://firebasestorage.googleapis.com/v0/b/robocore-bf107.appspot.com/o/arghy.jpg?alt=media&token=1ca40532-3156-4d9e-81f4-68078bf287b5";
         String url1="https://firebasestorage.googleapis.com/v0/b/robocore-bf107.appspot.com/o/rahul.jpg?alt=media&token=16e1f446-8a9c-41ea-96e2-c9f4e257067b";
         String url2="https://firebasestorage.googleapis.com/v0/b/robocore-bf107.appspot.com/o/jeeva.jpg?alt=media&token=e049d9b4-aca3-4834-981d-708f3470916a";
         String url3="https://firebasestorage.googleapis.com/v0/b/robocore-bf107.appspot.com/o/dhanush.jpg?alt=media&token=db372c3d-2d45-4c11-ab54-c1a267130ec8";
@@ -120,8 +120,8 @@ public class Team extends AppCompatActivity {
         String url50="";
         String url51="";
         String url52="";
-
-        Glide.with(getApplicationContext()).load(url).into(m1);
+*/
+      /*  Glide.with(getApplicationContext()).load(url).into(m1);
         Glide.with(getApplicationContext()).load(url1).into(m2);
         Glide.with(getApplicationContext()).load(url2).into(m3);
         Glide.with(getApplicationContext()).load(url3).into(m4);
@@ -135,8 +135,8 @@ public class Team extends AppCompatActivity {
         Glide.with(getApplicationContext()).load(url11).into(m13);
         Glide.with(getApplicationContext()).load(url12).into(m14);
         Glide.with(getApplicationContext()).load(url13).into(m15);
-        Glide.with(getApplicationContext()).load(url4).into(m16);
-        Glide.with(getApplicationContext()).load(url5).into(m17);
+        Glide.with(getApplicationContext()).load(url14).into(m16);
+        Glide.with(getApplicationContext()).load(url15).into(m17);
         Glide.with(getApplicationContext()).load(url16).into(m18);
         Glide.with(getApplicationContext()).load(url17).into(m19);
         Glide.with(getApplicationContext()).load(url18).into(m20);
@@ -173,7 +173,7 @@ public class Team extends AppCompatActivity {
         Glide.with(getApplicationContext()).load(url49).into(m51);
         Glide.with(getApplicationContext()).load(url50).into(m53);
         Glide.with(getApplicationContext()).load(url51).into(m53);
-
+*/
 
 
 

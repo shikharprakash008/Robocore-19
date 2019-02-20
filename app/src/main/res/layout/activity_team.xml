@@ -79,7 +79,7 @@
                     android:layout_gravity="center"
                     android:layout_marginTop="16dp"
 
-                     />
+                    android:src="@drawable/amaan" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -116,13 +116,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     >
+
                     <de.hdodenhof.circleimageview.CircleImageView
                         android:id="@+id/image2"
-                        android:layout_marginTop="16dp"
-                        android:layout_centerHorizontal="true"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                         />
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="16dp"
+                        android:src="@drawable/abhinav" />
 
                     <TextView
                         android:layout_below="@+id/image2"
@@ -156,13 +157,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     >
+
                     <de.hdodenhof.circleimageview.CircleImageView
                         android:id="@+id/image3"
-                        android:layout_marginTop="16dp"
-                        android:layout_centerHorizontal="true"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        />
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="16dp"
+                        android:src="@drawable/aditi" />
 
                     <TextView
                         android:layout_below="@+id/image3"
@@ -195,13 +197,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     >
+
                     <de.hdodenhof.circleimageview.CircleImageView
                         android:id="@+id/image4"
-                        android:layout_marginTop="16dp"
-                        android:layout_centerHorizontal="true"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        />
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="16dp"
+                        android:src="@drawable/anshuman" />
 
                     <TextView
                         android:layout_below="@+id/image4"
