@@ -5,11 +5,14 @@ import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.media.Image;
+import android.media.MediaPlayer;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.ActionBar;
+import android.util.Log;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -20,19 +23,28 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.animation.LinearInterpolator;
+import android.webkit.WebView;
 import android.widget.Button;
+import android.widget.ExpandableListView;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.VideoView;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
 
+    ExpandableListAdapter expandableListAdapter;
+    ExpandableListView expandableListView;
+   List<MenuModel> headerList = new ArrayList<>();
+    HashMap<MenuModel, List<MenuModel>> childList = new HashMap<>();
 
-
-
+   VideoView videoView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,7 +55,22 @@ public class MainActivity extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+//code for main background
 
+        videoView=findViewById(R.id.mVideoView);
+        setSupportActionBar(toolbar);
+        Uri uri = Uri.parse("android.resource://"+getPackageName() +"/"+ R.raw.bg_video);
+        videoView.setDrawingCacheEnabled(true);
+        videoView.setVideoURI(uri);
+        videoView.requestFocus();
+        videoView.start();
+
+        videoView.setOnPreparedListener(new MediaPlayer.OnPreparedListener() {
+            @Override
+            public void onPrepared(MediaPlayer mediaPlayer) {
+                mediaPlayer.setLooping(true);
+            }
+        });
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -92,32 +119,31 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.corsit) {
-            Intent i=new Intent(MainActivity.this,Corsit.class);
+            Intent i = new Intent(MainActivity.this, Corsit.class);
             startActivity(i);
             // Handle the camera action
         } else if (id == R.id.robocore) {
-            Intent i=new Intent(MainActivity.this,RoboCore.class);
+            Intent i = new Intent(MainActivity.this, RoboCore.class);
             startActivity(i);
 
         } else if (id == R.id.events) {
-            Intent i=new Intent(MainActivity.this,Events.class);
+            Intent i = new Intent(MainActivity.this, Events.class);
             startActivity(i);
 
         } else if (id == R.id.team) {
-            Intent i=new Intent(MainActivity.this,Team.class);
+            Intent i = new Intent(MainActivity.this, Team.class);
             startActivity(i);
 
         } else if (id == R.id.sponsor) {
-            Intent i=new Intent(MainActivity.this,Sponsor.class);
+            Intent i = new Intent(MainActivity.this, Sponsor.class);
             startActivity(i);
 
         } else if (id == R.id.contact_us) {
-            Intent i=new Intent(MainActivity.this,ContactUs.class);
+            Intent i = new Intent(MainActivity.this, ContactUs.class);
             startActivity(i);
 
-        }
-        else if (id == R.id.location){
-            Intent i=new Intent(MainActivity.this,Location.class);
+        } else if (id == R.id.location) {
+            Intent i = new Intent(MainActivity.this, Location.class);
             startActivity(i);
 
         }
@@ -126,4 +152,5 @@ public class MainActivity extends AppCompatActivity
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
-}
+
+    }
