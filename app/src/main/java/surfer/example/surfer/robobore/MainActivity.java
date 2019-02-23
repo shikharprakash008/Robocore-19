@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity
 
         videoView = findViewById(R.id.mVideoView);
         setSupportActionBar(toolbar);
-        Uri uri = Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.bg);
+        Uri uri = Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.bg_video);
         videoView.setDrawingCacheEnabled(true);
         videoView.setVideoURI(uri);
         videoView.requestFocus();
@@ -126,7 +126,7 @@ public class MainActivity extends AppCompatActivity
             startActivity(i);
         }
         else if(id == R.id.location)
-        { Intent i= new Intent(MainActivity.this,Corsit.class);
+        { Intent i= new Intent(MainActivity.this,Location.class);
             startActivity(i);
         }
 
