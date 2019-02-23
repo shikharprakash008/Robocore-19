@@ -1,11 +1,13 @@
 package surfer.example.surfer.robobore;
 
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.google.firebase.database.DataSnapshot;
@@ -21,6 +23,7 @@ public class Team_Registration extends AppCompatActivity {
     DatabaseReference team;
     EditText editText1,editText2,editText3,editText4,editText5,editText6,editText7,editText8;
     Button button;
+    ImageView imageView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,10 +37,18 @@ public class Team_Registration extends AppCompatActivity {
         editText7=findViewById(R.id.editText10);
         editText8=findViewById(R.id.editText11);
         button=findViewById(R.id.button);
+        imageView=findViewById(R.id.imageView);
 
         database=FirebaseDatabase.getInstance();
         team=database.getReference("Team Name");
 
+imageView.setOnClickListener(new View.OnClickListener() {
+    @Override
+    public void onClick(View v) {
+        Intent i= new Intent(Team_Registration.this,MainActivity.class);
+        startActivity(i);
+    }
+});
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
