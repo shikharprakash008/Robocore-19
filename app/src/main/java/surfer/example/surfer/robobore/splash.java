@@ -3,14 +3,22 @@ package surfer.example.surfer.robobore;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
+import android.widget.ImageView;
 
 public class splash extends AppCompatActivity {
+
+    ImageView imageView;
+    Animation frombottom;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
-
+        imageView=findViewById(R.id.imageView3);
+        frombottom=AnimationUtils.loadAnimation(this,R.anim.from_botttom);
+        imageView.setAnimation(frombottom);
         Thread t =new Thread(){
 
             @Override
@@ -18,7 +26,7 @@ public class splash extends AppCompatActivity {
                 super.run();
 
                 try {
-                    sleep(3000);
+                    sleep(2200);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }

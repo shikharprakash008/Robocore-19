@@ -116,12 +116,7 @@ public class MainActivity extends AppCompatActivity
 
         } else if (id == R.id.team) {
 
-        } else if (id == R.id.sponsor) {
-
-        } else if (id == R.id.contact_us) {
-
         }
-
 
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -150,8 +145,9 @@ public class MainActivity extends AppCompatActivity
         MenuModel childModel = new MenuModel("Day 1", false, false);
         childModelsList.add(childModel);
 
-        childModel = new MenuModel("Day 2", false, false);
+        childModel = new MenuModel("Day 2", true, true);
         childModelsList.add(childModel);
+
 
 
 
@@ -159,14 +155,32 @@ public class MainActivity extends AppCompatActivity
             Log.d("API123","here");
             childList.put(menuModel, childModelsList);
         }
+
+
         menuModel = new MenuModel("The Team", true, false); //Menu of Android Tutorial. No sub menus
         headerList.add(menuModel);
 
         if (!menuModel.hasChildren) {
             childList.put(menuModel, null);
         }
+        menuModel = new MenuModel("Sponsor", true, false); //Menu of Android Tutorial. No sub menus
+        headerList.add(menuModel);
 
+        if (!menuModel.hasChildren) {
+            childList.put(menuModel, null);
+        }
+        menuModel = new MenuModel("Contact Us", true, false); //Menu of Android Tutorial. No sub menus
+        headerList.add(menuModel);
 
+        if (!menuModel.hasChildren) {
+            childList.put(menuModel, null);
+        }
+        menuModel = new MenuModel("Location", true, false); //Menu of Android Tutorial. No sub menus
+        headerList.add(menuModel);
+
+        if (!menuModel.hasChildren) {
+            childList.put(menuModel, null);
+        }
     }
 
     private void populateExpandableList() {
@@ -191,6 +205,7 @@ public class MainActivity extends AppCompatActivity
 
                 return false;
             }
+
         });
 
         expandableListView.setOnChildClickListener(new ExpandableListView.OnChildClickListener() {
@@ -209,4 +224,7 @@ public class MainActivity extends AppCompatActivity
             }
         });
     }
+
+
 }
+

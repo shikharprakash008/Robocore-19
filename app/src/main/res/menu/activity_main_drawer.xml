@@ -30,21 +30,6 @@
             />
     </group>
 
-    <item android:title="Communicate">
-        <menu>
-            <item
-                android:id="@+id/sponsor"
-                android:icon="@drawable/sponsor"
-                android:title="Sponsor" />
-            <item
-                android:id="@+id/contact_us"
-                android:icon="@drawable/telephone"
-                android:title="Contact Us" />
-            <item
-                android:id="@+id/location"
-                android:icon="@drawable/placeholder"
-                android:title="Location" />
-        </menu>
-    </item>
+
 
 </menu>
