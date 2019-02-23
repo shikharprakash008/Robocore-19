@@ -37,14 +37,14 @@ public class Team_Registration extends AppCompatActivity {
         editText7=findViewById(R.id.editText10);
         editText8=findViewById(R.id.editText11);
         button=findViewById(R.id.button);
-        imageView=findViewById(R.id.imageView);
+        imageView=findViewById(R.id.image);
 
         database=FirebaseDatabase.getInstance();
         team=database.getReference("Team Name");
 
 imageView.setOnClickListener(new View.OnClickListener() {
     @Override
-    public void onClick(View v) {
+    public void onClick(View view) {
         Intent i= new Intent(Team_Registration.this,MainActivity.class);
         startActivity(i);
     }
