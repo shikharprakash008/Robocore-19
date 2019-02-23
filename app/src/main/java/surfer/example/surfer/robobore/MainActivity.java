@@ -29,10 +29,10 @@ public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
 
-    ExpandableListAdapter expandableListAdapter;
-    ExpandableListView expandableListView;
-    List<MenuModel> headerList = new ArrayList<>();
-    HashMap<MenuModel, List<MenuModel>> childList = new HashMap<>();
+    //ExpandableListAdapter expandableListAdapter;
+    // ExpandableListView expandableListView;
+    //List<MenuModel> headerList = new ArrayList<>();
+    //HashMap<MenuModel, List<MenuModel>> childList = new HashMap<>();
     VideoView videoView;
 
     @Override
@@ -58,9 +58,9 @@ public class MainActivity extends AppCompatActivity
             }
         });
 
-        expandableListView = findViewById(R.id.expandableListView);
-       // prepareMenuData();
-      //  populateExpandableList();
+        //  expandableListView = findViewById(R.id.expandableListView);
+        // prepareMenuData();
+        //  populateExpandableList();
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -109,24 +109,22 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.corsit) {
-            Intent i= new Intent(MainActivity.this,Corsit.class);
+            Intent i = new Intent(MainActivity.this, Corsit.class);
             startActivity(i);
         } else if (id == R.id.robocore) {
-            Intent i= new Intent(MainActivity.this,RoboCore.class);
+            Intent i = new Intent(MainActivity.this, RoboCore.class);
             startActivity(i);
         } else if (id == R.id.events) {
-            Intent i= new Intent(MainActivity.this,Events.class);
+            Intent i = new Intent(MainActivity.this, Events.class);
             startActivity(i);
         } else if (id == R.id.team) {
-            Intent i= new Intent(MainActivity.this,Team.class);
+            Intent i = new Intent(MainActivity.this, Team.class);
             startActivity(i);
-        }
-        else if(id==R.id.contact){
-            Intent i= new Intent(MainActivity.this,ContactUs.class);
+        } else if (id == R.id.contact) {
+            Intent i = new Intent(MainActivity.this, ContactUs.class);
             startActivity(i);
-        }
-        else if(id == R.id.location)
-        { Intent i= new Intent(MainActivity.this,Location.class);
+        } else if (id == R.id.location) {
+            Intent i = new Intent(MainActivity.this, Location.class);
             startActivity(i);
         }
 
@@ -136,105 +134,6 @@ public class MainActivity extends AppCompatActivity
         return true;
     }
 
-   // private void prepareMenuData() {
-
-      //  MenuModel menuModel = new MenuModel("Corsit", true, false);
-     //   headerList.add(menuModel);
-        //if (!menuModel.hasChildren) {
-          //  childList.put(menuModel, null);
-        //}
-        //menuModel = new MenuModel("Robocore 2k19", true, false );
-      //  headerList.add(menuModel);
-
-        //if (!menuModel.hasChildren) {
-         //   childList.put(menuModel, null);
-       // }
-
-       // menuModel = new MenuModel("Events", true, true); //Menu of Java Tutorials
-        //headerList.add(menuModel);
-        //List<MenuModel> childModelsList = new ArrayList<>();
-        //MenuModel childModel = new MenuModel("Day 1", false, false);
-        //childModelsList.add(childModel);
-
-        //childModel = new MenuModel("Day 2", true, true);
-        //childModelsList.add(childModel);
-
-
-
-
-        //if (menuModel.hasChildren) {
-          //  Log.d("API123","here");
-            //childList.put(menuModel, childModelsList);
-      //  }
-
-
-       // menuModel = new MenuModel("The Team", true, false); //Menu of Android Tutorial. No sub menus
-       // headerList.add(menuModel);
-
-       // if (!menuModel.hasChildren) {
-       //     childList.put(menuModel, null);
-       // }
-       // menuModel = new MenuModel("Sponsor", true, false); //Menu of Android Tutorial. No sub menus
-      //  headerList.add(menuModel);
-
-      //  if (!menuModel.hasChildren) {
-           // childList.put(menuModel, null);
-       // }
-       // menuModel = new MenuModel("Contact Us", true, false); //Menu of Android Tutorial. No sub menus
-       // headerList.add(menuModel);
-
-       // if (!menuModel.hasChildren) {
-       //     childList.put(menuModel, null);
-       // }
-       // menuModel = new MenuModel("Location", true, false); //Menu of Android Tutorial. No sub menus
-       // headerList.add(menuModel);
-
-        //if (!menuModel.hasChildren) {
-            //childList.put(menuModel, null);
-       // }
-   // }
-
-    //private void populateExpandableList() {
-
-      //  expandableListAdapter = new ExpandableListAdapter(this, headerList, childList);
-       // expandableListView.setAdapter(expandableListAdapter);
-
-        //expandableListView.setOnGroupClickListener(new ExpandableListView.OnGroupClickListener() {
-          //  @Override
-          //  public boolean onGroupClick(ExpandableListView parent, View v, int groupPosition, long id) {
-
-
-
-              //  if (headerList.get(groupPosition).isGroup) {
-                 //   if (!headerList.get(groupPosition).hasChildren) {
-
-                       //Intent back= new Intent(MainActivity.this,Team_Registration.class);
-                     //   startActivity(back);
-                      //  onBackPressed();
-                  //  }
-              //  }
-
-               // return false;
-          //  }
-
-      //  });
-
-       // expandableListView.setOnChildClickListener(new ExpandableListView.OnChildClickListener() {
-           // @Override
-           // public boolean onChildClick(ExpandableListView parent, View v, int groupPosition, int childPosition, long id) {
-
-               // if (childList.get(headerList.get(groupPosition)) != null) {
-                  //  MenuModel model = childList.get(headerList.get(groupPosition)).get(childPosition);
-                  //  if (model.url.length() > 0) {
-
-                  //      onBackPressed();
-                  //  }
-              //  }
-
-               // return false;
-          //  }
-       // });
-    }
-
+}
 
 
