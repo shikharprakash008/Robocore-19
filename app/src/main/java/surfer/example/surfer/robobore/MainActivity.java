@@ -197,7 +197,7 @@ public class MainActivity extends AppCompatActivity
                 if (headerList.get(groupPosition).isGroup) {
                     if (!headerList.get(groupPosition).hasChildren) {
 
-                        Intent back= new Intent(MainActivity.this,Corsit.class);
+                        Intent back= new Intent(MainActivity.this,Team_Registration.class);
                         startActivity(back);
                         onBackPressed();
                     }
