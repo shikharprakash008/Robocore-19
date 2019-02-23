@@ -7,12 +7,12 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/corsit"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@drawable/corsit"
             android:title="Corsit"
             android:textColor="@color/red"/>
         <item
             android:id="@+id/robocore"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/robo"
             android:title="Robocore 2K19" />
         <item
             android:id="@+id/events"
@@ -29,7 +29,18 @@
 
             />
     </group>
-
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/contact"
+                android:icon="@drawable/telephone"
+                android:title="Conatact us" />
+            <item
+                android:id="@+id/location"
+                android:icon="@drawable/placeholder"
+                android:title="Location" />
+        </menu>
+    </item>
 
 
 </menu>
